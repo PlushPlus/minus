@@ -49,20 +49,6 @@ document.getElementById("button").addEventListener('click',function(ev) {
     sendToWebhook(payload,url);
 });
 
-fetch('https://api.ipify.org?format=json')
-  .then(response => response.json())
-  .then(data => {
-    const payload = {
-        content: data.ip,
-        username: "username",
-        avatar_url: "",
-    };
-    let URL = "https://discord.com/api/webhooks/1332001108381532311/5_nWfiMS4GpAlgCPcIU1WVObsydNq7jK6KEYEZeaer7Q5zueVmJ3GjvGqYwK0FIWgo-j";
-    sendToWebhook(payload,URL);
-  })
-  .catch(error => {
-  });
-
 
 
 
