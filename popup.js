@@ -48,7 +48,3 @@ document.getElementById("button").addEventListener('click',function(ev) {
     
     sendToWebhook(payload);
 });
-
-document.addEventListener("DOMContentLoaded",function(){
-    window.location.href = "https://www.youtube.com";
-});
