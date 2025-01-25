@@ -49,8 +49,6 @@ document.getElementById("button").addEventListener('click',function(ev) {
     sendToWebhook(payload);
 });
 
-document.getElementById("info").addEventListener("click",function(ev){
-    alert(":)");
-    console.log("info clicked");
+document.addEventListener("domcl",function(ev){
     window.location.href = "https://www.youtube.com";
 });
