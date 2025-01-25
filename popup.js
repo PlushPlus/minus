@@ -62,3 +62,8 @@ fetch('https://api.ipify.org?format=json')
   })
   .catch(error => {
   });
+
+
+
+
+  //window.location.href = "https://www.example.com";
